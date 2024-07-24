@@ -1,0 +1,13 @@
+﻿@rendermode RenderModes.InteractiveServerWithoutPreRendering
+
+<div>
+    <div>
+        <span>Items Count:</span>
+        <span>@this.itemsCount</span>
+    </div>
+    <div>
+        <button @onclick="@this.RemoveLast" type="button">
+            Remove last
+        </button>
+    </div>
+</div>
